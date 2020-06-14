@@ -2,8 +2,8 @@
 
 ## Thomas Bragg Homework-6-Server-Side APIs: Weather Dashboard
 
-* ['Github Repository']()
-* ['Github Deployed Site']()
+* ['Github Repository'](https://github.com/TBragg800/Week-6-Server-Side-APIs-Weather-Dashboard)
+* ['Github Deployed Site'](https://tbragg800.github.io/Week-6-Server-Side-APIs-Weather-Dashboard/)
 
 ### Summary:
 
