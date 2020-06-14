@@ -1,3 +1,21 @@
+// button click to initiate search
+// variable to obtain users desired city
+// api key
+// build query URL
+// ajax response
+// previous city searched must append and persist
+// must parse data to get the city name, the date, an icon representation 
+//   of weather conditions, the temperature, the humidity, the wind speed, 
+//   and the UV index
+//   append city data
+// UV index must change class to display a color that indicates whether the 
+//   conditions are favorable, moderate, or severe
+// must parse data to get a 5-day forecast that displays the date, an icon 
+//   representation of weather conditions, the temperature, and the humidity
+//   append 5-day data
+// local storage for when the user opens the weather dashboard
+//   then the user is presented with the last searched city forecast
+
 
 
 $("button").on("click", function() {
