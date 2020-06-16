@@ -3,3 +3,14 @@
 /* use container for overall sizing */
 /* styles for favorable, moderate, or severe UV Index */
 
+.favorable {
+    background-color: rgb(41, 165, 41);
+}
+
+.moderate {
+    background-color: rgb(106, 153, 214);
+}
+
+.severe {
+    background-color: #ce4b4b;
+}

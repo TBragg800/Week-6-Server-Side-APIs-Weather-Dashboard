@@ -30,16 +30,38 @@ $("button").on("click", function() {
         method: "GET"
     }).then(function(response) {
 
+        $(".city, .temp, .humidity, .wind, .uv-index").empty();
+
         var cityTime = new Date(response.dt * 1000);
         
-        $(".city").text(response.name + " (" + cityTime.toLocaleDateString("en-US") + ")");
+        $(".city").append("<p>" + response.name + " (" + cityTime.toLocaleDateString("en-US") + ")" + "</p>");
         $(".city").append(`<img src="https://openweathermap.org/img/wn/${response.weather[0].icon}@2x.png">`);
         var tempF = (response.main.temp - 273.15) * 1.80 + 32;
-        $(".temp").text("Temperature (F) " + tempF.toFixed(2) + " °F");
-        $(".humidity").text("Humidity: " + response.main.humidity + " %");
-        $(".wind").text("Wind Speed: " + response.wind.speed + " MPH");
+        $(".temp").append("<p>" + "Temperature: " + tempF.toFixed(2) + " °F" + "</p>");
+        $(".humidity").append("<p>" + "Humidity: " + response.main.humidity + " %" + "</p>");
+        $(".wind").append("<p>" + "Wind Speed: " + response.wind.speed + " MPH" + "</p>");
 
-        console.log(response);
+        var uviQueryURL = `https://api.openweathermap.org/data/2.5/uvi?appid=b15b2b973a104648ff62868774ec5427&lat=${response.coord.lat}&lon=${response.coord.lon}`;
+
+        $.ajax({
+            url:  uviQueryURL,
+            method: "GET"
+        }).then(function(response) {
+
+            $(".uv-index").append("<p>" + "UV Index: " + "<span>" + response.value + "</span>" + "</p>");
+
+            if (response.value < 3) {
+                $("span").addClass("favorable");
+            } else
+            if (response.value < 8) {
+                $("span").addClass("moderate");
+            } else {
+                $("span").addClass("severe");
+            }
+        
+        });
+
+        
 
     });
 
@@ -48,6 +70,8 @@ $("button").on("click", function() {
         url:  fiveDayQueryURL,
         method: "GET"
     }).then(function(response) {
+
+        $(".5day").empty();
 
         $(".5day").append("<div class='card-body text-white bg-primary m-3 rounded float-left day1' style='max-width: 18rem;'>")
         var day1Time = new Date(response.list[3].dt * 1000);
