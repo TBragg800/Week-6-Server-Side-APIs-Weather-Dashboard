@@ -16,7 +16,7 @@
 // local storage for when the user opens the weather dashboard
 //   then the user is presented with the last searched city forecast
 
-
+var cityKey = 0;
 
 $("button").on("click", function() {
     var userCity = $(".thisCity").val().trim();
@@ -115,11 +115,21 @@ $("button").on("click", function() {
 
     });
 
-    localStorage.setItem("city", userCity);
-    var prevCity = localStorage.getItem("city");
+    var cityKeyValue = $(".thisCity").val();
+    console.log(cityKeyValue);
+    var cityKey = "city";
+    console.log(cityKey);
+    localStorage.setItem(cityKey, cityKeyValue);
+    var prevCity = localStorage.getItem(cityKey);
+    cityKey = cityKey + 1;
     $(".list-group").append("<button class='btn text-left list-group-item thisCity'>" + prevCity + "</button>")
-
     
+    // for (var i = 0; i < localStorage.length; i++) {
+
+    // }
+
+
     $("#user-city").val("");
 });
+
 
