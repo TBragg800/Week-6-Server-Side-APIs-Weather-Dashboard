@@ -8,7 +8,7 @@
 ### Summary:
 This project utilizes HTML and CSS styles to build a Weather Dashboard and enact dynamic changes to the document by way of JQuery. Through the OpenWeather API the dashboard is able to retrieve weather data through 3 API calls for any city encompassed in it's library. When deployed in the browser, the dashboard allows multipule insights into the functionality and data made by those requests.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/OpenWeather-Logo.jpg" width="200" height="120">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/OpenWeather-Logo.jpg" align="right" width="400" height="220">
 
 ### Psuedo Code:
 * create input field for city name.
@@ -46,7 +46,7 @@ This project utilizes HTML and CSS styles to build a Weather Dashboard and enact
 * Bootstrap designs and grid layout.
 * Current weather data sorted by temperature, humidity, wind speed and uv index.
 * A color representation of uv index condtions ranging from favorable(green), moderate(blue), or severe(red) in accordance with the EPA UV Index scale.
-<img src="images/green.png" width="116" height="21"><img src="images/blue.png" width="110" height="22"><img src="images/red.png" width="116" height="25">
+<img src="images/green.png" align="right" width="116" height="21"><img src="images/blue.png" align="right" width="110" height="22"><img src="images/red.png" align="right" width="116" height="25">
 * A 5-Day forecast with temperature and humidity conditions. 
 
 ### Code Validator
