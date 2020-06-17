@@ -1,5 +1,5 @@
 # Week-6-Server-Side-APIs-Weather-Dashboard
-<img src="https://www.pngitem.com/pimgs/m/520-5208614_curso-programacin-front-end-completo-transparent-html-css.png" width="100" height="100"> <img src="https://i.stack.imgur.com/dMXbE.png" width="125" height="100"> <img src="https://i.dlpng.com/static/png/7044135_preview.png" width="150" height="100">
+<img src="https://www.pngitem.com/pimgs/m/520-5208614_curso-programacin-front-end-completo-transparent-html-css.png" width="100" height="100"> <img src="https://i.stack.imgur.com/dMXbE.png" width="125" height="100"><img src="https://i.dlpng.com/static/png/7044135_preview.png" width="150" height="100">
 ## Thomas Bragg Homework-6-Server-Side APIs: Weather Dashboard
 
 * [Github Repository](https://github.com/TBragg800/Week-6-Server-Side-APIs-Weather-Dashboard)
@@ -45,9 +45,11 @@ This project utilizes HTML and CSS styles to build a Weather Dashboard and enact
 * Bootstrap designs and grid layout.
 * Current weather data sorted by temperature, humidity, wind speed and uv index.
 * A color representation of uv index condtions ranging from favorable(green), moderate(blue), or severe(red) in accordance with the EPA UV Index scale.
+<img src="images/green.png" width="116" height="21"><img src="images/blue.png" width="110" height="22"><img src="images/red.png" width="116" height="34">
 * A 5-Day forecast with temperature and humidity conditions. 
 
 ### Code Validator
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/W3C%C2%AE_Icon.svg/1200px-W3C%C2%AE_Icon.svg.png" width="150" height="100"><img src="https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2018/10/6.png" width="100" height="100">
 * Code validation by W3C for HTML and CSS
 * Code validation by BeautifyTools for Javascript
 
