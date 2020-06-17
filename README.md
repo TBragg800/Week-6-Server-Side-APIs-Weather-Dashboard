@@ -1,5 +1,5 @@
 # Week-6-Server-Side-APIs-Weather-Dashboard
-<img src="https://www.pngitem.com/pimgs/m/520-5208614_curso-programacin-front-end-completo-transparent-html-css.png" width="100" height="100"> <img src="https://i.stack.imgur.com/dMXbE.png" width="100" height="100"> <img src="https://i.dlpng.com/static/png/7044135_preview.png" width="100" height="100">
+<img src="https://www.pngitem.com/pimgs/m/520-5208614_curso-programacin-front-end-completo-transparent-html-css.png" width="100" height="100"> <img src="https://i.stack.imgur.com/dMXbE.png" width="125" height="100"> <img src="https://i.dlpng.com/static/png/7044135_preview.png" width="150" height="100">
 ## Thomas Bragg Homework-6-Server-Side APIs: Weather Dashboard
 
 * [Github Repository](https://github.com/TBragg800/Week-6-Server-Side-APIs-Weather-Dashboard)
