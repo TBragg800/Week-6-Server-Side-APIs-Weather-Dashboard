@@ -1,8 +1,5 @@
 
-/* bootstrap grid layout. possibly card for current forecast */
-/* use container for overall sizing */
-/* styles for favorable, moderate, or severe UV Index */
-
+/* 3 styles to contour UV Index */
 .favorable {
     background-color: rgb(41, 165, 41);
 }

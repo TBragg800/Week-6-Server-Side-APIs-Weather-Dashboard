@@ -9,32 +9,20 @@
     <title>Weather Dashboard</title>
 </head>
 <body>
-    <!-- create input field for city name -->
-    <!-- create button for search query -->
-    <!-- field for persisting previously searched city -->
-    <!-- field for the current city name, the date, an icon representation 
-        of weather conditions, the temperature, the humidity, the wind 
-        speed, and the UV index -->
-    <!-- UV Index field contains color to indicate the conditions of 
-        favorable, moderate or severe -->
-    <!-- field containing 5-day forecast that displays the date, an icon 
-        representation of weather conditions, the temperature, and the 
-        humidity -->
-    <!-- WHEN I open the weather dashboard 
-        THEN I am presented with the last searched city forecast -->
 
-    
-
+<!-- Div containing h1 tag as header for page -->
     <div class="card">
         <div class="card-body text-center bg-dark text-white">
             <h1>Weather Dashboard</h1>
         </div>
     </div>
 
+<!-- Container to weather divs -->
     <div class="container-fluid">
 
         <div class="row">
-        
+
+            <!-- Input form for city search and previous search history list -->
             <div class="col">
                 <div class="card" style="width: 22rem;">
                     <div class="card">
@@ -60,7 +48,7 @@
             </div>
 
             
-
+<!-- Current Forecast -->
             <div class="col">
                 <div class="card-body">
                     <h3 class="city mt-2 mb-2"></h3>
@@ -73,6 +61,7 @@
 
         </div>
 
+<!-- 5-Day Forecast -->
         <div class="row">
             <div class="col mt-2 d-flex">
                 <h3>5-Day Forecast:</h3>

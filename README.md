@@ -10,7 +10,7 @@ This project utilizes HTML and CSS styles to build a Weather Dashboard and enact
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/OpenWeather-Logo.jpg" align="right" width="400" height="220">
 
-### Psuedo Code:
+### Pseudo Code:
 * create input field for city name.
 * create button for search query.
 * field for persisting previously searched city.
